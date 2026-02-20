@@ -1,25 +1,52 @@
-## 🧐 Problem Statementt
+# KrishiQuest.io 🚜🌱
 
-Farmers in India face immense financial risks due to unpredictable weather, volatile markets, and degrading soil health. They often have to make critical decisions about crops and fertilizers at the start of the season without knowing the likely outcome, essentially gambling with their livelihood. Furthermore, the adoption of sustainable agricultural practices is slow due to a lack of engaging, accessible education.
+> A data-driven farming simulation platform that helps farmers and agri-enthusiasts test and evaluate farming decisions **before** applying them in real life.
 
-## 💡 Our Solution: The "Digital Twin" Approach
+## 🧠 About
 
-**KrishiQuest** is an AI-powered, gamified platform that creates a "Digital Twin" of a farmer's actual land using real-world data (Soil Health Cards, local weather patterns, and market trends).
+**KrishiQuest.io** (also shown as *AgroPlay* in project view) is a Digital Twin–based agricultural decision support system. By simulating different farm scenarios using real farm data (like soil nutrients, weather, water availability, and market prices), users can:
 
-Before planting a single seed, farmers can use KrishiQuest to run **risk-free simulations**. They can test different strategies (e.g., *"What if I switch to organic fertilizer for wheat this season?"*) and receive instant, data-driven forecasts on potential **net profit, crop yield, and long-term soil health impact**.
+- Visualize a **digital replica of their farm**
+- Simulate crop and resource strategies
+- Predict **yield, profits, and risk levels**
+- Estimate **long-term soil health impact**
 
-We wrap this powerful simulation engine in a gamified interface to make complex agricultural science accessible, engaging, and rewarding for the next generation of farmers.
+This approach helps reduce financial risk and enhances farming sustainability.
 
-## ✨ Key Features
+---
 
-### 🚜 The Core Simulation Engine
-* **Hyper-Personalized "Digital Twin":** Ingests real data to model specific farm conditions.
-* **AI-Powered Forecasting:** Uses a Python ML microservice to predict outcomes based on user inputs and environmental variables.
-* **Risk-Free Experimentation:** Test chemical vs. integrated vs. organic farming strategies without financial consequence.
+## 🚀 Features
 
-### 🎮 Gamification & Engagement Layer
-* **📅 Smart Fasal Calendar:** A dynamic, gamified calendar that tells the farmer exactly *what* to do and *when* (sowing, irrigation, fertilization) based on their winning simulation strategy.
-* **Interactive Quizzes:** Fun, bite-sized modules integrated into the game to educate farmers on best agricultural practices.
-* **Achievement Badges & Leaderboards:** Reward systems for adopting sustainable practices (e.g., earning the "Soil Savior Badge" for improving organic carbon levels).
+✔ Digital farm twin simulation  
+✔ Real-world data integration (soil, weather, prices)  
+✔ Yield & profit prediction  
+✔ What-if scenario analysis  
+✔ Soil health forecasting
 
-To get started, take a look at src/app/page.tsx.
+---
+
+## 💻 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | React.js, Axios, Tailwind CSS |
+| Backend | Node.js, Express.js |
+| Database | PostgreSQL (user & farm profiles), MongoDB (simulation & forecasts) |
+| AI & Analytics | Python (ML, Scikit-learn, Pandas) |
+| Deployment | Vercel (frontend), Render (backend/AI service) |
+
+---
+
+## 📁 Folder Structure
+
+The main parts of the project include:
+
+KrishiQuest.io/
+├── client/ # React frontend
+├── server/ # Node backend
+├── ai-service/ # Python ML microservice
+├── components.json
+├── next.config.ts
+├── tailwind.config.ts
+├── package.json
+└── README.md
