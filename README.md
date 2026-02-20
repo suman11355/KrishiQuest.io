@@ -1,4 +1,4 @@
-## 🧐 Problem Statement
+## 🧐 Problem Statementt
 
 Farmers in India face immense financial risks due to unpredictable weather, volatile markets, and degrading soil health. They often have to make critical decisions about crops and fertilizers at the start of the season without knowing the likely outcome, essentially gambling with their livelihood. Furthermore, the adoption of sustainable agricultural practices is slow due to a lack of engaging, accessible education.
 
